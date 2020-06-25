@@ -5,13 +5,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AMOM • jeksterslabRAMOM</title>
+<title>Parametric Bootstrapping for Indirect Effects • jeksterslabRAMOM</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
 <script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
-<script src="../pkgdown.js"></script><meta property="og:title" content="AMOM">
+<script src="../pkgdown.js"></script><meta property="og:title" content="Parametric Bootstrapping for Indirect Effects">
 <meta property="og:description" content="jeksterslabRAMOM">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -57,7 +57,7 @@
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="../articles/AMOM.html">AMOM</a>
+      <a href="../articles/AMOM.html">Parametric Bootstrapping for Indirect Effects</a>
     </li>
     <li>
       <a href="../articles/nonnormal_distributions.html">Nonnormal Distributions</a>
@@ -66,67 +66,34 @@
       <a href="../articles/results.html">Results</a>
     </li>
     <li>
-      <a href="../articles/simple/mvrnorm/plot_miss_rates_simple_mvrnorm_mvrnorm_95_parameter_std.html">Standardized Simple Mediation Model (Multivariate Normal) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
       <a href="../articles/simple/mvrnorm/plot_miss_rates_simple_mvrnorm_mvrnorm_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Multivariate Normal) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rbeta_rbeta_95_parameter_std.html">Standardized Simple Mediation Model (Beta, Beta) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rbeta_rbeta_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Beta, Beta) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rexp_rexp_95_parameter_std.html">Standardized Simple Mediation Model (Exponential, Exponential) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rexp_rexp_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Exponential, Exponential) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlaplace_rlaplace_95_parameter_std.html">Standardized Simple Mediation Model (Beta, Beta) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlaplace_rlaplace_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Laplace, Laplace) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm2_rlnorm2_95_parameter_std.html">Standardized Simple Mediation Model (Log-Normal2, Log-Normal2) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm2_rlnorm2_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Log-Normal2, Log-Normal2) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm_rlnorm_95_parameter_std.html">Standardized Simple Mediation Model (Log-Normal, Log-Normal) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm_rlnorm_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Log-Normal2, Log-Normal2) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlogis_rlogis_95_parameter_std.html">Standardized Simple Mediation Model (Logistic, Logistic) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlogis_rlogis_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Logistic, Logistic) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rnorm_rnorm_95_parameter_std.html">Standardized Simple Mediation Model (Normal, Normal) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rnorm_rnorm_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Normal, Normal) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois2_rpois2_95_parameter_std.html">Standardized Simple Mediation Model (Poisson2, Poisson2) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois2_rpois2_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Poisson2, Poisson2) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois_rpois_95_parameter_std.html">Standardized Simple Mediation Model (Poisson, Poisson) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois_rpois_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Poisson, Poisson) - Plot Miss Rates (95% CI, Strict Criteria)</a>
-    </li>
-    <li>
-      <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_runif_runif_95_parameter_std.html">Standardized Simple Mediation Model (Uniform, Uniform) - Plot Miss Rates (95% CI, Strict Criteria)</a>
     </li>
     <li>
       <a href="../articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_runif_runif_95_parameter_unstd.html">Unstandardized Simple Mediation Model (Uniform, Uniform) - Plot Miss Rates (95% CI, Strict Criteria)</a>
@@ -157,10 +124,10 @@
       </header><script src="AMOM_files/header-attrs-2.3/header-attrs.js"></script><script src="AMOM_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
-      <h1 data-toc-skip>AMOM</h1>
-                        <h4 class="author">Ivan Jacob Agaloos Pesigan</h4>
+      <h1 data-toc-skip>Parametric Bootstrapping for Indirect Effects</h1>
+                        <h4 class="author">Ivan Jacob Agaloos Pesigan and Shu Fai Cheung</h4>
             
-            <h4 class="date">2020-06-25</h4>
+            <h4 class="date">2020-06-26</h4>
       
       <small class="dont-index">Source: <a href="https://github.com/jeksterslabds/jeksterslabRAMOM/blob/master/vignettes/AMOM.Rmd"><code>vignettes/AMOM.Rmd</code></a></small>
       <div class="hidden name"><code>AMOM.Rmd</code></div>
@@ -181,6 +148,11 @@
 <p><span class="math display">\[\begin{equation}
   \mathrm{Indirect \ Effect} = \alpha \beta
 \end{equation}\]</span></p>
+<div class="figure">
+<img src="AMOM_files/figure-html/simple_mediation-1.png" alt="The Simple Mediation Model" width="100%"><p class="caption">
+The Simple Mediation Model
+</p>
+</div>
 </div>
 <div id="nonparametric-bootstrapping" class="section level2">
 <h2 class="hasAnchor">
@@ -198,12 +170,134 @@
 <li>Generate data using parameter estimates from the original sample data <span class="math inline">\(B\)</span> number of times</li>
 <li>Follow steps 2 and 3 of nonparametric bootstrapping</li>
 </ul>
+<div id="multivariate-normal-distribution" class="section level3">
+<h3 class="hasAnchor">
+<a href="#multivariate-normal-distribution" class="anchor"></a>Multivariate Normal Distribution</h3>
+<p><span class="math display">\[\begin{equation}
+  \mathbf{\Sigma}
+  \left(
+    \hat{\theta}
+  \right)
+  =
+  \begin{bmatrix}
+    \hat{\sigma}^{2}_{X} &amp; \hat{\alpha} \hat{\sigma}_{X}^{2} &amp;  \hat{\alpha} \hat{\beta} \hat{\sigma}_{X}^{2} + \hat{\tau}^{\prime} \hat{\sigma}_{X}^{2} \\
+    \hat{\alpha} \hat{\sigma}_{X}^{2}  &amp; \hat{\alpha}^{2} \hat{\sigma}_{X}^{2} + \hat{\sigma}_{\hat{\varepsilon}_{M}}^{2} &amp; \hat{\alpha}^{2} \hat{\beta} \hat{\sigma}_{X}^{2} + \hat{\alpha} \hat{\tau}^{\prime} \hat{\sigma}_{X}^{2} + \hat{\beta} \hat{\sigma}_{\hat{\varepsilon}_{M}}^{2} \\
+    \hat{\alpha} \hat{\beta} \hat{\sigma}_{X}^{2} + \hat{\tau}^{\prime} \hat{\sigma}_{X}^{2} &amp; \hat{\alpha}^{2} \hat{\beta} \hat{\sigma}_{X}^{2} + \hat{\alpha} \hat{\tau}^{\prime} \hat{\sigma}_{X}^{2} + \hat{\beta} \hat{\sigma}_{\hat{\varepsilon}_{M}}^{2} &amp; \hat{\beta}^{2} \hat{\alpha}^{2} \hat{\sigma}_{X}^{2} + \hat{\beta}^{2} \hat{\sigma}_{\hat{\varepsilon}_{M}}^{2} + 2 \hat{\alpha} \hat{\beta} \hat{\tau}^{\prime} \hat{\sigma}_{X}^{2} + \hat{\tau}^{\prime} \hat{\sigma}_{X}^{2} + \hat{\sigma}_{\hat{\varepsilon}_{Y}}^{2}
+  \end{bmatrix}
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+  \mathbf{\mu}
+  \left(
+    \hat{\theta}
+  \right)
+  = 
+  \begin{bmatrix}
+    \bar{X} \\
+    \bar{M} = \hat{\delta}_M + \hat{\alpha} \bar{X} \\
+    \bar{Y} = \hat{\delta}_Y + \hat{\tau}^{\prime} \bar{X} + \hat{\beta} \hat{\delta}_M + \hat{\alpha} \hat{\beta} \bar{X}
+  \end{bmatrix}
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+  X,
+  M,
+  Y
+  \sim
+  \mathrm{MVN}
+    \left[
+      \mathbf{\mu}
+      \left(
+        \hat{\theta}
+      \right),
+      \mathbf{\Sigma}
+      \left(
+        \hat{\theta}
+      \right)
+    \right]
+\end{equation}\]</span></p>
+</div>
+<div id="nonnormal-predictor" class="section level3">
+<h3 class="hasAnchor">
+<a href="#nonnormal-predictor" class="anchor"></a>Nonnormal Predictor</h3>
+<p><span class="math display">\[\begin{equation}
+  X
+  \sim
+  \mathrm{Exponential}
+    \left(
+      \lambda
+    \right)
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+  M = \hat{\delta}_M + \hat{\alpha} X + \hat{\varepsilon}_M,
+  \\
+  \hat{\varepsilon}_M \sim \mathcal{N} \left(\mu = 0, \hat{\sigma}^2_{\hat{\varepsilon}_M} \right)
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+  Y = \hat{\delta}_Y + \hat{\tau}^{\prime} X + \hat{\beta} M + \hat{\varepsilon}_Y,
+  \\
+  \hat{\varepsilon}_Y \sim \mathcal{N} \left(\mu = 0, \hat{\sigma}^2_{\hat{\varepsilon}_Y} \right)
+\end{equation}\]</span></p>
+</div>
 <div id="parametric-assumption" class="section level3">
 <h3 class="hasAnchor">
 <a href="#parametric-assumption" class="anchor"></a>Parametric Assumption</h3>
 <ul>
 <li>Distributional assumptions are required since we are essentially simulating data using parameter estimates</li>
 <li>Distributional assumptions are not uncommon in statistical methods</li>
+</ul>
+</div>
+</div>
+<div id="simulation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#simulation" class="anchor"></a>Simulation</h2>
+<div id="sample-sizes" class="section level3">
+<h3 class="hasAnchor">
+<a href="#sample-sizes" class="anchor"></a>Sample Sizes</h3>
+<p><span class="math inline">\(20, 50, 75, 100, 150, 200, 250, 500, 1000\)</span></p>
+</div>
+<div id="effect-sizes" class="section level3">
+<h3 class="hasAnchor">
+<a href="#effect-sizes" class="anchor"></a>Effect Sizes</h3>
+<p><span class="math inline">\(0.00, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90\)</span></p>
+</div>
+<div id="estimation" class="section level3">
+<h3 class="hasAnchor">
+<a href="#estimation" class="anchor"></a>Estimation</h3>
+<ul>
+<li>Ordinary Least Squares</li>
+</ul>
+<p><span class="math display">\[\begin{equation}
+  \boldsymbol{\hat{\beta}}
+  =
+  \left(
+    \mathbf{X}^{\prime}
+    \mathbf{X}
+  \right)^{-1}
+  \left(
+    \mathbf{X}^{\prime}
+    \mathbf{y}
+  \right).
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+  \hat{\sigma}^2
+  =
+  \frac{1}{n - k}
+  \left(
+    \mathbf{y}
+    -
+    \mathbf{X} \boldsymbol{\hat{\beta}}
+  \right)^{\prime}
+  \left(
+    \mathbf{y}
+    -
+    \mathbf{X} \boldsymbol{\hat{\beta}}
+  \right) \\
+\end{equation}\]</span></p>
+</div>
+<div id="assessment" class="section level3">
+<h3 class="hasAnchor">
+<a href="#assessment" class="anchor"></a>Assessment</h3>
+<ul>
+<li>Miss rate, that is, the proportion of simulation cases where the confidence interval did not contain the population indirect effect.</li>
 </ul>
 </div>
 </div>

@@ -52,67 +52,34 @@
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/results.html</loc>
   </url>
   <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/mvrnorm/plot_miss_rates_simple_mvrnorm_mvrnorm_95_parameter_std.html</loc>
-  </url>
-  <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/mvrnorm/plot_miss_rates_simple_mvrnorm_mvrnorm_95_parameter_unstd.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rbeta_rbeta_95_parameter_std.html</loc>
   </url>
   <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rbeta_rbeta_95_parameter_unstd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rexp_rexp_95_parameter_std.html</loc>
-  </url>
-  <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rexp_rexp_95_parameter_unstd.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlaplace_rlaplace_95_parameter_std.html</loc>
   </url>
   <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlaplace_rlaplace_95_parameter_unstd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm2_rlnorm2_95_parameter_std.html</loc>
-  </url>
-  <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm2_rlnorm2_95_parameter_unstd.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm_rlnorm_95_parameter_std.html</loc>
   </url>
   <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlnorm_rlnorm_95_parameter_unstd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlogis_rlogis_95_parameter_std.html</loc>
-  </url>
-  <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rlogis_rlogis_95_parameter_unstd.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rnorm_rnorm_95_parameter_std.html</loc>
   </url>
   <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rnorm_rnorm_95_parameter_unstd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois2_rpois2_95_parameter_std.html</loc>
-  </url>
-  <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois2_rpois2_95_parameter_unstd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois_rpois_95_parameter_std.html</loc>
-  </url>
-  <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_rpois_rpois_95_parameter_unstd.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_runif_runif_95_parameter_std.html</loc>
   </url>
   <url>
     <loc>https://github.com/jeksterslabds/jeksterslabRAMOM//articles/simple/nonnormal/nonnormal/plot_miss_rates_simple_runif_runif_95_parameter_unstd.html</loc>
